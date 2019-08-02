@@ -18,7 +18,7 @@ NPN光电管负责出货结果检测<br>
 <iframe height=498 width=510 src="http://v.youku.com/v_show/id_XMzg5Mjg5OTY4NA==.html?spm=a2hzp.8253869.0.0">
 
 ### 效果预览
-<img src="https://github.com/ZengOwen/AndroidAutomation/blob/master/app/S1.jpeg" width="30%" /><img src="https://github.com/ZengOwen/AndroidAutomation/blob/master/app/S2.jpeg" width="30%" /><img src="https://github.com/ZengOwen/AndroidAutomation/blob/master/app/S3.jpeg" width="30%" />  
+<img src="https://github.com/ZengOwen/AndroidAutomation/blob/master/app/S1.jpeg" width="30%" />  <img src="https://github.com/ZengOwen/AndroidAutomation/blob/master/app/S2.jpeg" width="30%" />  <img src="https://github.com/ZengOwen/AndroidAutomation/blob/master/app/S3.jpeg" width="30%" />  
 <br>
 
 ### 使用
