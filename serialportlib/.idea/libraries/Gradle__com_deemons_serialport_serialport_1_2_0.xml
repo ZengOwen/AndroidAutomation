@@ -1,0 +1,12 @@
+<component name="libraryTable">
+  <library name="Gradle: com.deemons.serialport:serialport-1.2.0">
+    <CLASSES>
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/serialport-1.2.0.aar/ccafda6c95e812026e4dcea39a3682cb/res" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/serialport-1.2.0.aar/ccafda6c95e812026e4dcea39a3682cb/jars/classes.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.deemons.serialport/serialport/1.2.0/d7848f93bc8c3cd0fb6c568d551906062404ca5d/serialport-1.2.0-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    tools:context=".activity.FragBd01run">
+
+    <!-- TODO: Update blank fragment layout -->
+
+    <android.support.constraint.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="286dp">
+
+
+        <RadioGroup
+            android:id="@+id/rgSendCtrl"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="24dp"
+            android:layout_marginLeft="24dp"
+            android:layout_marginRight="24dp"
+            android:layout_marginStart="24dp"
+            android:checkedButton="@+id/single_send"
+            android:orientation="horizontal"
+            android:outlineProvider="bounds"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            tools:layout_editor_absoluteY="20dp">
+
+            <RadioButton
+                android:id="@+id/single_send"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="单控"
+                android:textColor="@drawable/select_color" />
+
+            <RadioButton
+                android:id="@+id/group_send"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="80dp"
+                android:paddingRight="10dp"
+                android:text="组控"
+                android:textColor="@drawable/select_color" />
+        </RadioGroup>
+
+        <RadioGroup
+            android:id="@+id/rgPortSel"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="24dp"
+            android:layout_marginStart="24dp"
+            android:layout_marginTop="16dp"
+            android:outlineProvider="bounds"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/rgSendCtrl">
+
+            <Switch
+                android:id="@+id/swch01"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="01 "
+                tools:layout_editor_absoluteX="43dp"
+                tools:layout_editor_absoluteY="269dp" />
+
+            <Switch
+                android:id="@+id/swch02"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="02 "
+                tools:layout_editor_absoluteX="43dp"
+                tools:layout_editor_absoluteY="269dp" />
+
+            <Switch
+                android:id="@+id/swch03"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="03 "
+                tools:layout_editor_absoluteX="43dp"
+                tools:layout_editor_absoluteY="269dp" />
+
+            <Switch
+                android:id="@+id/swch04"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="04 "
+                tools:layout_editor_absoluteX="43dp"
+                tools:layout_editor_absoluteY="269dp" />
+
+            <Switch
+                android:id="@+id/swch05"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="05 "
+                tools:layout_editor_absoluteX="43dp"
+                tools:layout_editor_absoluteY="269dp" />
+
+            <Switch
+                android:id="@+id/swch06"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="06 "
+                tools:layout_editor_absoluteX="43dp"
+                tools:layout_editor_absoluteY="269dp" />
+
+            <Switch
+                android:id="@+id/swch07"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="07 "
+                tools:layout_editor_absoluteX="43dp"
+                tools:layout_editor_absoluteY="269dp" />
+
+            <Switch
+                android:id="@+id/swch08"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="08 "
+                tools:layout_editor_absoluteX="43dp"
+                tools:layout_editor_absoluteY="269dp" />
+
+        </RadioGroup>
+
+
+    </android.support.constraint.ConstraintLayout>
+</FrameLayout>
