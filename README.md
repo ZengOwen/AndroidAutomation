@@ -5,7 +5,6 @@
 AndroidAutomation 以安卓为控制器,实现了本地控制指令的Web化，以便借助浏览器的跨平台的特性,低成本实现各平台的用户交互。
 
 本程序实现了对COM口的控制, 支持设置 su 路径、串口路径、波特率、校验位、数据位、停止位; 亦可作为串口调试工具。
-
 <br>
 
 ### 样例
@@ -15,12 +14,11 @@ NPN光电管负责出货结果检测<br>
 
 由以上元件构建智能售卖系统原型。
 
-[视频](http://v.youku.com/v_show/id_XMzg5Mjg5OTY4NA==.html?spm=a2hzp.8253869.0.0)
+[点我观看视频](http://v.youku.com/v_show/id_XMzg5Mjg5OTY4NA==.html?spm=a2hzp.8253869.0.0)
+<iframe height=498 width=510 src="http://v.youku.com/v_show/id_XMzg5Mjg5OTY4NA==.html?spm=a2hzp.8253869.0.0">
 
 ### 效果预览
-<img src="https://github.com/ZengOwen/AndroidAutomation/blob/master/app/S1.jpeg" width="33%" /><img src="https://github.com/ZengOwen/AndroidAutomation/blob/master/app/S2.jpeg" width="33%" /><img src="https://github.com/ZengOwen/AndroidAutomation/blob/master/app/S3.jpeg" width="33%" />  
-
-
+<img src="https://github.com/ZengOwen/AndroidAutomation/blob/master/app/S1.jpeg" width="30%" /><img src="https://github.com/ZengOwen/AndroidAutomation/blob/master/app/S2.jpeg" width="30%" /><img src="https://github.com/ZengOwen/AndroidAutomation/blob/master/app/S3.jpeg" width="30%" />  
 <br>
 
 ### 使用
@@ -33,7 +31,6 @@ NPN光电管负责出货结果检测<br>
    InputStream is = mSerialPort.getInputStream();
    OutputStream os = mSerialPort.getOutputStream();
    ```
-
 <br>
 
 ### API
@@ -48,7 +45,6 @@ Android 主板在与其它硬件进行串口通信时，串口作为底层实现
 //需要在打开串口前调用
 SerialPort.setSuPath("/system/xbin/su");
 ```
-
 <br>
 
 #### 查看串口设备列表
@@ -123,7 +119,7 @@ os.write(ByteUtils.hexStringToBytes("CCAA0300"));
 
 #### 32路继电器应答模式 及 执行结果触发
 
-使用Rxjava2接受数据时,为定时触发,触发周期太长,响应太慢,触发周期太短,会造成完整的返回数据被切割,改用FutureTask,但只能正常触发一次,于是自己实现带超时控制的快速响应
+使用Rxjava2接受数据时,为定时触发,触发周期太长,响应太慢,触发周期太短,会造成完整的返回数据被切割,改用FutureTask,但只能正常触发一次,于是自己实现带超时控制的快速响应, 解决了内容完整与高效的统一
 
 ```java
     public boolean SendDataAndRcv(byte[] sData, int timeOut, ComRcvBean ackData) throws IOException, InterruptedException{
