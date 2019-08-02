@@ -14,7 +14,7 @@ NPN光电管负责出货结果检测<br>
 
 由以上元件构建智能售卖系统原型。
 
-[点我观看视频](http://v.youku.com/v_show/id_XMzg5Mjg5OTY4NA==.html?spm=a2hzp.8253869.0.0)
+[点我观看视频](http://v.youku.com/v_show/id_XMzg5Mjg5OTY4NA==.html?spm=a2hzp.8253869.0.0)<br>
 http://v.youku.com/v_show/id_XMzg5Mjg5OTY4NA==.html?spm=a2hzp.8253869.0.0
 
 ### 效果预览
