@@ -8,7 +8,7 @@ AndroidAutomation 以安卓为控制器,实现了本地控制指令的Web化，�
 
 <br>
 
-### Demo
+### 样例
 Android工控机为平台<br>
 32路modbus协议继电器控制动作机构<br>
 NPN光电管负责出货结果检测<br>
@@ -17,10 +17,9 @@ NPN光电管负责出货结果检测<br>
 
 [视频](http://v.youku.com/v_show/id_XMzg5Mjg5OTY4NA==.html?spm=a2hzp.8253869.0.0)
 
-### 程序界面
-<img src="https://github.com/ZengOwen/AndroidAutomation/blob/master/app/S1.jpeg" width="40%" /> 
-<img src="https://github.com/ZengOwen/AndroidAutomation/blob/master/app/S2.jpeg" width="40%" /> 
-<img src="https://github.com/ZengOwen/AndroidAutomation/blob/master/app/S3.jpeg" width="40%" /> 
+### 效果预览
+<img src="https://github.com/ZengOwen/AndroidAutomation/blob/master/app/S1.jpeg" width="33%" /><img src="https://github.com/ZengOwen/AndroidAutomation/blob/master/app/S2.jpeg" width="33%" /><img src="https://github.com/ZengOwen/AndroidAutomation/blob/master/app/S3.jpeg" width="33%" />  
+
 
 <br>
 
